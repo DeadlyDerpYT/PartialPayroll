@@ -1,0 +1,7 @@
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\bin\Debug\Payroll App Using Partial Classes.exe.config
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\bin\Debug\Payroll App Using Partial Classes.exe
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\bin\Debug\Payroll App Using Partial Classes.pdb
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\obj\Debug\Payroll App Using Partial Classes.csprojAssemblyReference.cache
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\obj\Debug\Payroll App Using Partial Classes.csproj.CoreCompileInputs.cache
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\obj\Debug\Payroll App Using Partial Classes.exe
+F:\Users\d\Learning C#\Payroll App Using Partial Classes\Payroll App Using Partial Classes\obj\Debug\Payroll App Using Partial Classes.pdb

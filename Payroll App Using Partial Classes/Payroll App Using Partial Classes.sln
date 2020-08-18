@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll App Using Partial Classes", "Payroll App Using Partial Classes\Payroll App Using Partial Classes.csproj", "{21621D83-7A65-4A0E-BAEC-77941BB4FBAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21621D83-7A65-4A0E-BAEC-77941BB4FBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21621D83-7A65-4A0E-BAEC-77941BB4FBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21621D83-7A65-4A0E-BAEC-77941BB4FBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21621D83-7A65-4A0E-BAEC-77941BB4FBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B444DE42-EA2E-432D-A113-0C3A6589AFC0}
+	EndGlobalSection
+EndGlobal
