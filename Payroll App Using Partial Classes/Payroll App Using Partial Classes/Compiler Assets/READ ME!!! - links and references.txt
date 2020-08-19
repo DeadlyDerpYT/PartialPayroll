@@ -1,0 +1,6 @@
+For Official Compiler Reference that may [or may not] be confusing
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe#sample-command-lines-for-the-c-compiler
+
+For Unofficial but safe [it's from stack overflow] Reference
+Open the html document in this folder and
+Look at the answer with partials, monodevelop [labeled as mono], talks about being new to C#, and you can probably find it from here.
