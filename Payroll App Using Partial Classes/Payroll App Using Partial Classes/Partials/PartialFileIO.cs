@@ -12,12 +12,19 @@ namespace Payroll_App_Using_Partial_Classes.Partials
         public string path2;
         public PartialFileIO(string path, string name, double wage, double hWorked)
         {
+            //Redfine the path2 so the variable is to the savefile location
             path2 = path + "/Names" + "/" + name + "/" + name + ".txt";
+            //Define path3 so the variable is set to the directory of the savefile [you'll see why soon]
+            string path3 = path + "/Names" + "/" + name + "/";
             // Delete the file if it exists.
             if (File.Exists(path2))
             {
                 File.Delete(path2);
             }
+
+            //Create the directory for the file
+            //Note: If you Don't do this step it will not work properly.
+            Directory.CreateDirectory(Path.GetDirectoryName(path3));
 
             //Create the file.
             using (FileStream fs = new FileStream(path2, FileMode.OpenOrCreate, FileAccess.ReadWrite))
@@ -26,11 +33,6 @@ namespace Payroll_App_Using_Partial_Classes.Partials
                 AddText(fs, "\n——————————————————————————————\n");
                 AddText(fs, "Date: " + DateTime.Today.Date);
                 AddText(fs, "\nPay: " + CalculatePay(wage, hWorked).ToString());
-
-                for (int i = 1; i < 120; i++)
-                {
-                    AddText(fs, Convert.ToChar(i).ToString());
-                }
             }
             //Log Info
             Console.WriteLine("FileWrite Completed!");

@@ -32,7 +32,7 @@ namespace Payroll_App_Using_Partial_Classes
             // Clear the screen
             Console.Clear();
             //Create the File from the info listed [it is formatted like this because I put the FileStream Code in the Constructor [For who knows what reason (but hey, it makes it easier to understand!)]
-            Partials.PartialFileIO partialFile = new Partials.PartialFileIO("C:/", name, wage, hWorked);
+            Partials.PartialFileIO partialFile = new Partials.PartialFileIO("C:", name, wage, hWorked);
             Console.WriteLine("File Created!");
             Console.ReadKey();
         }
