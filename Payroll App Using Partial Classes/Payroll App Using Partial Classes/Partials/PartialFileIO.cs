@@ -34,10 +34,6 @@ namespace Payroll_App_Using_Partial_Classes.Partials
                 AddText(fs, "Date: " + DateTime.Today.Date);
                 AddText(fs, "\nPay: " + CalculatePay(wage, hWorked).ToString());
             }
-            //Log Info
-            Console.WriteLine("FileWrite Completed!");
-            Console.ReadKey();
-            Console.Clear();
         }
 
         public double CalculatePay(double wage, double hWorked)
